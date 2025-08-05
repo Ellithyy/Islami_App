@@ -1,16 +1,48 @@
-# islamiapp
+# 📱 Islami App
 
-A new Flutter project.
+A beautiful and modern Islamic mobile app built with **Flutter** 🕌✨  
+Provides essential features for Muslims including Quran, Azkar, Prayer Times, and more.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📖 **Quran Reader** with full surahs
+- 🕋 **Azkar** (Morning, Evening, Prayer...etc)
+- 🕰️ **Prayer Times** based on location
+- 🗓️ **Hijri Calendar**
+- 🔔 **Notification Reminders**
+- 🌙 **Dark & Light Mode**
+- 🎨 Elegant and responsive UI with clean architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Quran Page | Azkar Page | Home Screen |
+|------------|------------|-------------|
+| ![Quran](assets/screens/quran.png) | ![Azkar](assets/screens/azkar.png) | ![Home](assets/screens/home.png) |
+
+*(Add your screenshots in `assets/screens/` and update the paths)*
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **Flutter** (UI)
+- **Dart**
+- **GetX / Provider** (for state management)
+- **Location + Prayer Times Plugins**
+- **Responsive UI** using `flutter_screenutil`
+
+---
+
+## 🛠️ Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/islamiapp.git
+cd islamiapp
+flutter pub get
+flutter run
